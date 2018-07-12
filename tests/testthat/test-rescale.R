@@ -7,3 +7,7 @@ test_that("rescaling works, without overwriting the default", {
 test_that("rescaling works, without nondefault arguments", {
     expect_equal(rescale(1:3,1,2), c(1,1.5,2))
 })
+
+test_that("rescaling works, without nondefault arguments", {
+    expect_equal(rescale(1:3,1,4), c(1,2.5,4))
+})
