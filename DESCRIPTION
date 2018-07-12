@@ -2,7 +2,7 @@ Package: maRgheRitaR
 Date: 2018-07-12
 Type: Package
 Title: Centering and Scaling of Numeric Vectors
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: person("Giacomo","Lanza",email="ominodilecorbusier@yahoo.it",
     role=c("aut","cre"),
     comment = c(ORCID = "0000-0002-2239-3955"))
