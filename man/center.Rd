@@ -4,12 +4,12 @@
 \alias{center}
 \title{Centering datasets}
 \usage{
-center(dataset, desired)
+center(dataset, desired = 0)
 }
 \arguments{
 \item{dataset}{The numeric vector to be centered}
 
-\item{desired}{The numeric midpoint value around which the data will be centered}
+\item{desired}{The numeric midpoint value around which the data will be centered (default: 0)}
 }
 \value{
 A new vector containing the original data centered around the desired values
